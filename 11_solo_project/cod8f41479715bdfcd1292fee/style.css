@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+    height: 55px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #f55a5a;
+    color: white;
+}
+
+.navbar i, .navbar span {
+    align-self: center;
+    padding: 5px;
+}
+
+.journal {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    margin: 0 auto;
+    max-width: 550px
+}
+
+.journal--img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 20px;
+    align-self: center;
+}
+
+.detail {
+    align-self: center;
+}
+
+.detail i {
+    margin-right: 5px;
+    color: #f55a5a
+}
+
+.detail a:link {
+    margin-left: 15px;
+    color: grey;
+}
+
+.detail h1 {
+    margin-top: 6px;
+    margin-bottom: 0
+}
+
+.detail h4 {
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+.detail p {
+    margin-top: 1px;
+    font-size: 0.9em
+}

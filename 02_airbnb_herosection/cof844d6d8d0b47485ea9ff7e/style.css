@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+nav {
+    height: 70px;
+    display: flex;
+    padding: 20px 36px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.nav--logo {
+    max-width: 100px;
+}
+
+.photogrid {
+    max-width: 80%;
+    display: block;
+    margin: 20px auto;
+}
+
+.text {
+    padding: 20px;
+    max-width: 70%;
+}
+
+.hero {
+    max-width: 600px;
+    margin: 20px auto;
+}
